@@ -1,0 +1,9 @@
+applications:
+  - path: target/TomcatHelloWorldApp.war
+    name: EADC Project
+    buildpack: java_buildpack
+    environment_json: {}
+    memory: 768M
+    instances: 1
+    disk_quota: 1024M
+    services: []
