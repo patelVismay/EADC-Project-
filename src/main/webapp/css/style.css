@@ -1,0 +1,199 @@
+@charset "ISO-8859-1";
+body{
+  margin: 0;
+  background-repeat: no-repeat;
+  font-family: calibri;
+  overflow-x: hidden !important;   
+}
+
+.card{
+	font-family: calibri !important;
+}
+
+@media screen and (max-width:950px) {
+  .home_image{
+    width: 0% !important;
+    height: 0% !important;
+}
+
+  .navbar-toggler{
+    margin-bottom: -20px !important;
+
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .home2{
+    width: 0% !important;
+    height: 0% !important;
+  }
+}
+
+
+.navbar-brand{
+  margin-right:40px !important;
+  margin-left:44px;
+}
+.nav-item .nav-link{
+  color:none!important;
+  text-align: center !important;
+}
+
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+  margin-top: -60px !important;
+  margin-left: -10px !important;
+}
+
+.navbar{
+  background: white !important;
+  font-family: calibri; 
+}
+
+.btn:active {
+ background-color: #fff !important;
+} 
+
+.login:hover{
+background:#dedede !important;
+}
+
+.btn{
+	font-family:calibri !important;
+}
+
+
+
+
+
+/* Footer */
+.footer
+{
+	width: 100%;
+	background: #406cbd !important;
+  	display: block;
+  	margin-bottom: -40px
+}
+
+.inner-footer
+{
+	width: 95%;
+	margin: auto;
+	padding: 30px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.footer-items
+{
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.inner-footer h1
+{
+	padding: 10px 0;
+	font-size: 25px;
+	color: #fff;
+  	text-transform: uppercase;
+  	font-family: calibri;
+}
+
+.footer-items p
+{
+	color: white;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.inner-footer h2
+{
+	margin: 10px 0;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.inner-footer ul
+{
+	list-style: none;
+	color: white;
+	font-size: 15px;
+}
+
+.inner-footer ul a
+{
+	text-decoration: none;
+	outline: none;
+	color: white;
+	transition: 0.3s;
+}
+
+.inner-footer ul a:hover
+{
+	color: #fff;
+}
+
+.inner-footer ul li
+{
+	margin: 10px 0;
+}
+
+.inner-footer ul li i
+{
+	margin-right: 20px;
+	padding:0;
+}
+
+.social-media a{
+   text-decoration: none;   
+}
+
+.social-media i{
+   height: 20px;
+   width: 2px;
+   margin: 17px 5px;
+   padding: 13px;
+   font-size: 20px;
+}
+
+  .fa-facebook-f{
+      color: white;
+}
+
+  .fa-twitter{
+      color:white;
+}
+
+  .fa-instagram{
+    color: white;
+}
+
+  .fa-youtube{
+    color: white;
+}
+
+.footer-bottom{
+  padding: 10px;
+  background: gray;
+  color: #c9c9c9;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (max-width:1085px) {
+  .footer-items{
+      width: 50%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .footer-items{
+      width: 100%;
+  }
+  
+}
